@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body onload="initialize()">
+<div id="login">
+    <h2>Enter Details</h2>
+    <input class="box" type="text" id="name" placeholder="Enter Your Name...">
+    <h2>Choose Marble Amount:</h2>
+    <input class="button-74" type="button" id="little" value="Little" onclick="chooseAmount(id)">
+    <input class="button-74" type="button" id="more" value="More" onclick="chooseAmount(id)">
+    <input class="button-74" type="button" id="lot" value="A Lot" onclick="chooseAmount(id)">
+    <div id="modeDiv" hidden="hidden">
+        <h2>Choose Mode:</h2>
+        <input class="button-74" type="button" id="easy" value="Easy" onclick="chooseMode(id)">
+        <input class="button-74" type="button" id="hard" value="Hard" onclick="chooseMode(id)">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input class="button-74" type="button" id="submit" value="Submit" onclick="start()" disabled>
+</div>
+<div id="game">
+    <h2 id="playerScore"></h2>
+    <h2 id="compScore"></h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Sets Game</title>
+    <script src="multiple.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body onload="start()">
+    <h2 id="m1">Marble Set 1</h2>
+    <div id="set1">
+
+    </div>
+    <h2 id="m2">Marble Set 2</h2>
+    <div id="set2">
+
+    </div>
+    <h2 id="m3">Marble Set 3</h2>
+    <div id="set3">
+
+    </div>
+    <h2 id="display"></h2>
+    <input class="button-74" id="next" type="button" value="Next" onclick="next()" />
+    <input class="button-74" type="button" value="Back" id="back" onclick="home()" />
+    <div id="playerStuff">
+        <label for="piles">Choose Pile: </label>
+        <select name="piles" id="piles" onchange="updateMarbles()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+        <label for="marbles">Choose Marble Amount: </label>
+        <select name="marbles" id="marbles">
+
+        </select>
+        <br>
+        <br>
+        <input class="button-74" type="button" value="Submit" onclick="submit()"/>
+
+        
+    </div>
+</body>
+</html>
