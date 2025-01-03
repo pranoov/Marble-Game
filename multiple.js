@@ -1,3 +1,4 @@
+//Sets the amount of marbles
 let marbles1 = Math.floor(Math.random() * 14) + 2
 let marbles2 = Math.floor(Math.random() * 14) + 2
 let marbles3 = Math.floor(Math.random() * 14) + 2
