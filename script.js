@@ -9,6 +9,7 @@ let answered = false;
 let mode;
 let amount = 0;
 
+//Creates all the local storage for the scores
 function initialize(){
     if(localStorage.getItem('compScore') == undefined){
         localStorage.setItem('compScore',compScore)
